@@ -9,7 +9,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
-
+@Table
 @Entity
 public class Video {
     @Id

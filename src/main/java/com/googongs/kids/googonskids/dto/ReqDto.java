@@ -8,9 +8,9 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 public class ReqDto {
-    private Float startX;
-    private Float endX;
-    private Float startY;
-    private Float endY;
+    private Double startX;
+    private Double endX;
+    private Double startY;
+    private Double endY;
     private Integer type;
 }

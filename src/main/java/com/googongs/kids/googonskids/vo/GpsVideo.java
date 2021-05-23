@@ -6,6 +6,7 @@ import org.hibernate.annotations.OnDeleteAction;
 
 import javax.persistence.*;
 
+@Table
 @Entity
 public class GpsVideo {
 
